@@ -1,0 +1,1 @@
+export const FETCH_DETAIL_USER = 'FETCH_DETAIL_USER';

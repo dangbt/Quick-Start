@@ -5,6 +5,8 @@ import languageProviderReducer from 'containers/LanguageProvider/reducer';
 
 import userReducer from './userReducer';
 
+import userDetailReducer from '../containers/UserDetail/reducer';
+
 // Initial routing state
 const routeInitialState = fromJS({
   location: null,
@@ -30,6 +32,7 @@ export default function createReducer(injectedReducers) {
     route: routeReducer,
     user: userReducer,
     language: languageProviderReducer,
+    userDetail: userDetailReducer,
     ...injectedReducers,
   });
 }

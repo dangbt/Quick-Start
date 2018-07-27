@@ -35,6 +35,9 @@ class HomePage extends React.PureComponent {
         </Button>
         <button onClick={this.props.getUser}>click!!!</button>
         <br />
+        <a href="/user">
+          <FormattedMessage {...messages.header} />
+        </a>
         <FormInput
           label="First Name:"
           // onChange={() => alert('a')}
