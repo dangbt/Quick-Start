@@ -22,7 +22,7 @@ import messages from './messages';
 import Button from '../../components/Button';
 import FormInput from '../../components/FormInput';
 import Header from '../../components/Header';
-import { FECTH_ALL_USER } from '../../appReducer.js/userReducer/constants';
+import { FECTH_ALL_USER } from '../../appReducer/userReducer/constants';
 
 /* eslint-disable react/prefer-stateless-function */
 class HomePage extends React.PureComponent {

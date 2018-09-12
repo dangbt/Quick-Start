@@ -1,5 +1,5 @@
 import { fromJS } from 'immutable';
-import { FECTH_ALL_USER } from './constants';
+import { FECTH_ALL_USER, GET_USER_REQUEST } from './constants';
 
 /*
  * routeReducer
@@ -22,6 +22,8 @@ export default function userReducer(state = routeInitialState, action) {
   switch (action.type) {
     /* istanbul ignore next */
     case FECTH_ALL_USER:
+      return state.set('isLoading', true);
+    case GET_USER_REQUEST:
       return state.set('isLoading', true);
     default:
       return state;

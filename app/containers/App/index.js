@@ -23,7 +23,7 @@ export default function App() {
     <div>
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route exact path="/user" component={UserDetail} />
+        <Route path="/user" component={UserDetail} />
         <Route component={NotFoundPage} />
       </Switch>
     </div>

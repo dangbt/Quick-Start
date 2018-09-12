@@ -1,0 +1,2 @@
+export const FECTH_ALL_USER = 'FECTH_ALL_USER';
+export const GET_USER_REQUEST = 'GET_USER_REQUEST';
